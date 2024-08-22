@@ -1,0 +1,64 @@
+body {
+    color: white;
+    background-color: rgb(45, 151, 250);
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    margin-bottom: 100;
+    
+    
+}
+
+header {
+    border-bottom: solid 2px rgb(14, 7, 14);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(14, 5, 14);
+
+}
+
+.texto{
+    background-color: black;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display:flex;
+    justify-content: center;
+
+}
+
+.chamada-texto{
+    margin-right: 3%;
+
+
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+    margin-top: 50;
+
+}
+
+.categoria-filmes{
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px
+
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid white;
+
+}
+
+.categoria-filmes h2{
+    color: black;
+
+}
